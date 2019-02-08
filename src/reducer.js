@@ -1,13 +1,16 @@
 const initialState = {
-    value: 0
+  value: 0
 }
 
 const reducer = (state = initialState, action) => {
-    let { type } = action;
-    if (type === "INCREMENT") {
-        return {
-            value: state.value + 1
-        }
+  let { type } = action
+  //  let type = action.type
+  // let { value } = action
+  if (type === 'INCREMENT') {
+    console.log('action', action)
+    return {
+      value: state.value + action.value
     }
-    return state
+  }
+  return state
 }
