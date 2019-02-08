@@ -1,4 +1,6 @@
-const render = (state) => {
-  const counterDOM = document.getElementById('counterValue')
-  counterDOM.innerHTML = state.value
-}
+// const render = (state) => {
+//   const counterDOM = document.getElementById('counterValue')
+//   console.log(state)
+//   counterDOM.innerHTML = state.value
+//   counterDOM.style.color = state.color
+// }

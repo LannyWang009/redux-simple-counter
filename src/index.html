@@ -14,14 +14,15 @@
         <button id="decrement1">-1</button>
         <button id="decrement5">-5</button>
     
-       <form id='colorform'>
-           select your color:
-           <input id = "selectedColor" type="color" name="selectedColor" value="##ff0000">
-           <input type="submit">
+       <form id='colorForm' name='colorForm'>
+           <label for="color">Enter color:</label>
+           <input id= "color" type="color" name="color" >
+           <input type="submit" value="submit">
        </form>
     </div>   
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/4.0.0-rc.12/immutable.min.js" integrity="sha384-vQxJWMelK56yf8GzUS7PzFozDUZ9Tx09z5gOuUrIcpC8zbblGn7+3/gIhGmQkaiQ" crossorigin="anonymous"></script>
     <script src="reducer.js"></script>
     <script src="render.js"></script>
     <script src="index.js"></script>
